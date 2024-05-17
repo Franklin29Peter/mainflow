@@ -1,0 +1,40 @@
+.bodyclass {
+  background-color: rgb(31,81,255);
+  }
+
+
+.registration {
+  background-color: #fff;
+  padding: 100px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+
+}
+
+.buttonlogin {
+  background-color: rgb(31,81,255);
+  top:50px;
+  left:20px;
+  color: white;
+  border-radius: 5px;
+  border-color: transparent;
+  margin-top: 20px;
+  margin-left: 60px;
+
+  padding:10px 70px
+}
+
+.buttonsignup {
+  background-color: rgb(31,81,255);
+  top:50px;
+  left:20px;
+  color: white;
+  border-radius: 5px;
+  border-color: transparent;
+  margin-top: 20px;
+  margin-left: 80px;
+
+  padding:10px 70px;
+}
+

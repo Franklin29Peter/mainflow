@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin:0;
+  color: white;
+}
+
+.header{
+  background-color:black;
+    height: 100px;
+}
+
+button{
+  margin-right: 20px;
+}
+
+.imgclass{
+  position: absolute;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.checkclass{
+  position: absolute;
+  color: skyblue;
+  background-color: black;
+  border-radius: 5px;
+  border-color: transparent;
+  margin-top: 25px;
+  margin-left: 80px;
+  margin-bottom: 5px;
+
+  padding:15px 20px
+}
+
+.aboutclass{
+  position: absolute;
+  
+  color: skyblue;
+  border-radius: 5px;
+  background-color: black;
+  border-color: transparent;
+  margin-top: 25px;
+  margin-left: 230px;
+  margin-bottom: 5px;
+
+  padding:15px 20px
+}
+
+.logoutclassclass{
+  top:3.5%;
+  position: absolute;
+  left:75%;
+  color: white;
+  border-radius: 5px;
+  border-color: transparent;
+  
+  margin-left: 0px;
+  margin-bottom: 5px;
+
+  padding:15px 70px;
+  
+  background-color: rgb(31,81,255);
+ 
+   
+}
+
+.fourthpage-middle-section{
+  flex: 1;
+  max-width: 850px;
+  position:relative;
+  margin-left: 25%;
+  margin-right: 10px;
+  margin-top: 10%;
+  display: flex;
+  
+}
+.search-bar{
+  /*padding:10px 70px;*/
+  width: 300px;
+  height: 40px;
+
+  color: black;
+}
+.search-button{
+  padding:10px 30px;
+  background-color: black;
+  color: white;
+
+}

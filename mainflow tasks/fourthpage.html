@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="fourthpage.css">
+</head>
+<body>
+  
+  <div class="header">
+    <img class="imgclass" src="https://media.licdn.com/dms/image/D4D0BAQHsGXPI63yiZA/company-logo_200_200/0/1707792610506?e=1723680000&v=beta&t=TRMDE5CbKLBFYfrWh62CW0Cp25BVoBKjk8jlNM6E-Mw" alt="My Logo" width="50" height="50" >
+    
+    <button class="checkclass">contact us</button>
+    <button class="aboutclass" onclick="imageClick()">About</button>
+    <a href="firstpage.html">
+    <button class="logoutclassclass">Logout</button>
+  </a> 
+  </div>
+
+  <center>
+  <div class="fourthpage-middle-section">
+    <input class="search-bar" type="number" placeholder="search internships"><br>
+    
+    <button class="search-button">
+      Search
+    </button>
+  
+  </div><br>
+
+</center>
+
+
+  <script>
+    function imageClick() {
+  var url = "information.html"; 
+  var windowName = 'PopupWindow';
+  var windowFeatures = 'width=400,height=400,resizable=yes';
+
+
+  var popupWindow = window.open(url, windowName, windowFeatures);
+  
+
+  if (window.focus) {
+    popupWindow.focus();
+  }
+}
+  </script>
+</body>
+</html>

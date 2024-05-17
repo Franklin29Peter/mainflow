@@ -1,0 +1,51 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="thirdpage.css">
+</head>
+<body class="bodyclass">
+  <div class="div1class">
+    <center>
+      <h1>Login to Existing Account</h1>
+      <form id="loginForm">
+    <input class="input1class" placeholder="enter 'test@gmail.com'" name="email" value="test@gmail.com" required><br>
+    <input type="password" class="input2class" placeholder="enter 'test123'" name="psw" value="test123" required><br>
+
+    <button class="button1class">submit</button><br>
+  </form>
+    <a href="secondpage.html" class="linktologinpage">Dont have an account? Create a new account</a>
+  </center>
+  </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="thirdpage.css">
+  <script>
+    function handleFormSubmit(event) {
+      event.preventDefault(); // Prevent the default form submission
+      window.location.href = "fourthpage.html"; // Redirect to fourthpage.html
+    }
+  </script>
+</head>
+<body class="bodyclass">
+  <div class="div1class">
+    <center>
+      <h1>Login to Existing Account</h1>
+      <form id="loginForm" onsubmit="handleFormSubmit(event)">
+        <input class="input1class" type="email" placeholder="enter test@gmail.com" name="email" value="test@gmail.com" required><br>
+        <input type="password" class="input2class" placeholder="enter test123" name="psw" value="test123" required><br>
+        <button class="button1class" type="submit">Submit</button><br>
+      </form>
+      <a href="secondpage.html" class="linktologinpage">Don't have an account? Create a new account</a>
+    </center>
+  </div>
+</body>
+</html>
